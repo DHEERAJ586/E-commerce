@@ -1,0 +1,25 @@
+<%- include('partials/formheader') %>
+
+
+<div class="center">
+  <h1>Login</h1>
+  <form method="POST" action="/login" autocomplete="off">
+    <div class="txt_field">
+      <input type="text" name="username" required>
+      <span></span>
+      <label>Username</label>
+    </div>
+    <div class="txt_field">
+      <input type="password" name="password" required>
+      <span></span>
+      <label>Password</label>
+    </div>
+    <div class="pass">Forgot Password?</div>
+    <input type="submit" value="Login">
+    <div class="signup_link">
+      <!-- Not a member? <a href="./signup.html">Signup</a> -->
+    </div>
+  </form>
+</div>
+
+<%- include('partials/formfooter') %>

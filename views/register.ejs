@@ -1,0 +1,28 @@
+<%- include('partials/formheader') %>
+
+<div class="center">
+
+  <h1>Register</h1>
+  <!-- Makes POST request to /register  route -->
+  <form action="/register" method="post" autocomplete="off">
+
+    <div class="txt_field">
+      <input type="email" name="username" required>
+      <span></span>
+      <label>Email</label>
+    </div>
+    <div class="txt_field">
+      <input type="password" name="password" required>
+      <span></span>
+      <label>Password</label>
+    </div>
+    <!-- <div class="pass">Forgot Password?</div> -->
+    <input type="submit" value="Register">
+
+    <div class="signup_link">
+      <!-- Have a Account? <a href="./login.html">Login</a> -->
+    </div>
+  </form>
+</div>
+
+<%- include('partials/formfooter') %>

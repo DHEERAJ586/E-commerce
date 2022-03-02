@@ -1,0 +1,652 @@
+<%- include('partials/header') %>
+
+
+<div class="topnav" id="myTopnav">
+  <input type="search" placeholder="Search"></input><i class="fa fa-search search-icon"></i>
+  <a href="#">HOME</a>
+  <a href="#fashion">FASHION</a>
+  <a href="#footwear">FOOTWEAR</a>
+  <a href="#home">HOME & LIVING</a>
+  <a href="#electronics">ELECTRONICS</a>
+  <a href="#about">ABOUT US</a>
+  <a href="javascript:void(0);" class="icon" onClick="myFunction()"><i class="fa fa-bars"></i></a>
+  <div class="profile">
+    <a href="/cart" id="cart" onclick="cartFunction()"><i class="fa-solid fa-cart-shopping cart-icon"></i></a>
+    <a href="/register">Register</a>
+    <a href="/login">Login</a>
+  </div>
+</div>
+
+
+<div class="fluid-container">
+  <center>
+    <h2>TOP DEALS OF THE WEEK</h2>
+  </center>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item">
+        <img src="https://m.media-amazon.com/images/I/61TfZKczjaL._SX3740_.jpg" alt="I phone 12 Pro Max"></img>
+        <div class="carousel-caption">
+          <small>Redmi Note 11s</small><br></br>
+          <small>90 Hz Super Amoled Display</small>
+        </div>
+      </div>
+      <div class="item active">
+        <img src="https://m.media-amazon.com/images/I/81x3Aqh-1+L._SX3000_.jpg"></img>
+        <div class="carousel-caption">
+          <small>BOULT AUDIO</small><br></br>
+          <small>With a Fast Charging And High Performance</small>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://m.media-amazon.com/images/I/61Vy4V8aFqL._SX3000_.jpg"></img>
+        <div class="carousel-caption">
+          <small>Xiamoi 11T Pro</small><br></br>
+          <small>Qulacomm Snapdragon 888 Processor</small>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://m.media-amazon.com/images/I/61eMoQGD1IL._SX3000_.jpg"></img>
+        <div class="carousel-caption">
+          <small>REAL ME NARZO 50A</small><br></br>
+          <small>Helio G85 Gamming Processor</small>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a><a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<h2 class="fashion">MENS FASHION</h2>
+
+<section id="fashion">
+  <div class="row">
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="images/shirt.jpg" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>SHIRTS FOR MEN</h3>
+          <h4>Up To 30% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3001/"><button type="submit">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/too-good-to-be-real-picture-id853839958?k=20&m=853839958&s=612x612&w=0&h=NT0yP0ihsfy3JdQu62FQd3aecBpYB30MOAMaLN-JSCg=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>T-SHIRTS FOR MEN</h3>
+          <h4>30% - 50% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3001/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/perfect-match-picture-id532278616?k=20&m=532278616&s=612x612&w=0&h=SjiB2Q3Hi2SjQR1CiIPugWMbp9a4ZGxfR2bASBb-OKM=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>TROUSERS FOR MEN</h3>
+          <h4>Up To 40% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3001/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/successful-young-man-in-a-stylish-tshirt-in-fashionable-shorts-with-a-picture-id1174981796?k=20&m=1174981796&s=612x612&w=0&h=vIuVSElCLXTSitDO17hza6qvRUHZ1kgUJfI86L0Qa8M=" class="card-img-top"
+          alt=""></img>
+        <div class="card-body">
+          <h3>SHORTS FOR MEN</h3>
+          <h4>Up To 70% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3001/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h2 class="footwear"> WOMENS FASHION </h2>
+
+<div class="row">
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://media.istockphoto.com/photos/indian-women-sarees-with-jewelry-accessories-maharashtra-picture-id1015875746?k=20&m=1015875746&s=612x612&w=0&h=WnG5Lwrl4Q69NIlBWzzOXdbVhbLo0SX4_IPyZQRgHtg=" class="card-img-top" alt=""></img>
+      <div class="card-body">
+        <h3>WOMEN SAREES</h3>
+        <h4>Up T0 25% OFF</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3002/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://media.istockphoto.com/photos/indian-female-wearing-white-kurti-stock-photo-picture-id1305300175?k=20&m=1305300175&s=612x612&w=0&h=2gG0fhAPi2MxDV8q64PwZX8K0Uk6epvd6kb_plBDAZk=" class="card-img-top" alt=""></img>
+      <div class="card-body">
+        <h3>KURTIS WOMEN</h3>
+        <h4>Up T0 65% OFF</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3002/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://media.istockphoto.com/photos/asian-chinese-legs-with-yoga-pants-resting-on-sofa-legs-crossed-picture-id1293759012?k=20&m=1293759012&s=612x612&w=0&h=ooggshVCvv68SfDPVfV0NMOA_YGhOkSrrvmi0MH81a0=" class="card-img-top"
+        alt=""></img>
+      <div class="card-body">
+        <h3>LEGGINGS</h3>
+        <h4>Up To 45% OFF</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3002/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://media.istockphoto.com/photos/beautiful-stylish-girl-in-a-vintage-blue-jeans-and-white-tshirt-near-picture-id645965412?k=20&m=645965412&s=612x612&w=0&h=wXxnsWdpidZspSeKhHu1htbvmKGuNDYeBC_5Op5cEJc=" class="card-img-top"
+        alt=""></img>
+      <div class="card-body">
+        <h3>TOPS</h3>
+        <h4>Up T0 54% OFF</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3002/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h2 class="footwear"> MENS FOOTWEAR</h2>
+
+<section id="footwear">
+  <div class="row">
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="images/Crocs.jpeg" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>CLOGS</h3>
+          <h4>Up T0 20% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3003/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="images/Sneakers.jpeg" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>SNEAKERS</h3>
+          <h4>Up To 45% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3003/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/holiday-concept-picture-id506431116?k=20&m=506431116&s=612x612&w=0&h=AC6moizTfp5zDtonFzZLxj4oeD659n1zijg0HWjC98I=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>FLIP-FLOPS</h3>
+          <h4>Up To 60% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3003/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/motivation-fuels-the-human-engine-picture-id496719837?k=20&m=496719837&s=612x612&w=0&h=x0y0fGVgm68rTkXVjRZCHmLjiiACsUpa1y5QIupM1os=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>RUNNING SHOES</h3>
+          <h4>UP TO 35% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3003/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h2 class="footwear">WOMENS FOOTWEAR</h2>
+
+
+<div class="row">
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://images.unsplash.com/photo-1574791418059-2e8d961ab4fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhpZ2glMjBoZWVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt=""></img>
+      <div class="card-body">
+        <h3>HEELS WOMEN</h3>
+        <h4>Up T0 40% OFF</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3004/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://media.istockphoto.com/photos/sandals-on-grungy-wood-background-top-view-with-copy-space-picture-id681849298?k=20&m=681849298&s=612x612&w=0&h=kr5qKNiu55iOIdX4ap-76kbKWk_YIIokFz7Y-M9q5D0=" class="card-img-top" alt=""></img>
+      <div class="card-body">
+        <h3>SANDALS WOMEN</h3>
+        <h4>30% - 60% Off</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3004/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://media.istockphoto.com/photos/running-outside-picture-id582298358?k=20&m=582298358&s=612x612&w=0&h=Zk5_DipHtEHdZdeYddGl0a6KvP4-YsX0ldmhKrQ_XSA=" class="card-img-top" alt=""></img>
+      <div class="card-body">
+        <h3>RUNNING SHOES</h3>
+        <h4>Up To 43% Off</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3004/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-5">
+    <div class="card text-center">
+      <img src="https://media.istockphoto.com/photos/summer-slippers-picture-id471644925?k=20&m=471644925&s=612x612&w=0&h=VvRlqT8_A3xgGMFBz4PR9lq9r3XAWndZyMB0K89wOYw=" class="card-img-top" alt=""></img>
+      <div class="card-body">
+        <h3>FLIP FLOPS</h3>
+        <h4>Up To 40% OFF</h4>
+        <h5>Hurry Up!!</h5>
+        <a href="http://localhost:3004/"><button type="submit" name="button">Explore</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="footwear">HOME AND LIVING</h2>
+
+<section id="home">
+  <div class="row">
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/gas-kitchen-stove-cook-with-blue-flames-burning-picture-id1070983176?b=1&k=20&m=1070983176&s=170667a&w=0&h=_1tBzEBcPlJfCZTyosnjfVweJig2eNLTgkecnd4X7dI=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>STOVES</h3>
+          <h4>Up T0 45% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3005/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/closeup-of-an-open-refrigerator-picture-id1094166778?b=1&k=20&m=1094166778&s=170667a&w=0&h=nOeISKJ6cfOXlHAJwEV9s7U6LvKTTmVvWbVfsIqL6iY=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>FRIDGES</h3>
+          <h4>30% - 50% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3005/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/young-woman-preparing-food-at-home-using-olive-oil-picture-id1291246517?b=1&k=20&m=1291246517&s=170667a&w=0&h=NIMDQ8CMrjOSUFHy4yXL65KjsOaSQX3F3_jtvI4-hJc=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>COOKERS</h3>
+          <h4>Up To 50% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3005/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/vegetarian-preparing-vegan-smoothie-picture-id843259070?k=20&m=843259070&s=612x612&w=0&h=cDTRi3Kz9NkR7M2tTfHZVioM8miwTzqHl5fqPzsVqWc=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>MIXERS</h3>
+          <h4>Up To 60% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3005/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/lowering-and-turning-off-air-conditioning-to-conserve-eletricity-picture-id495606247?k=20&m=495606247&s=612x612&w=0&h=Z-QckAYb8OBeXhZClfNwyfmBHWlFGJxF06CNYF59AzI=" class="card-img-top"
+          alt=""></img>
+        <div class="card-body">
+          <h3>AIR CONDITIONERS</h3>
+          <h4>Up To 30% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3006/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/young-mother-putting-a-tray-full-of-cookies-in-the-oven-picture-id1215398365?k=20&m=1215398365&s=612x612&w=0&h=teNvqd8eZ8ce6kGiu_3yd22oP9Mr2dgRwOq6NDsIbKI=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>OVENS</h3>
+          <h4>Up T0 50% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3006/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/clothes-washing-machine-in-laundry-room-interior-picture-id1152782419?k=20&m=1152782419&s=612x612&w=0&h=65kJHGrOVkOAzkXh7wVOcO4dzJncVLttJzPzy0u8uKc=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>WASHING MACHINES</h3>
+          <h4>Up To 20% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3006/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/gas-water-boiler-on-wall-picture-id1257741704?k=20&m=1257741704&s=612x612&w=0&h=gYO0k6wKQ1AcDaafuj8dhbSNfaQUdE5eI9TOwNFQxyw=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>WATER HEATERS</h3>
+          <h4>Up T0 45% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3006/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<h2 class="electronics">MOBILES AND ELECTRONICS</h2>
+
+<section id="electronics">
+  <div class="row">
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="images/Mobiles.jpeg" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>MOBILES</h3>
+          <h4>5% Off on SBI Credit Card</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3007/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="images/Chargers.jpeg" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>MOBILE CHARGERS</h3>
+          <h4>Up To 30% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3007/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/wireless-earbuds-or-earphones-on-blue-background-picture-id1205742649?k=20&m=1205742649&s=612x612&w=0&h=y5odQePz_T2H6x968CuebXNaTSOTspUN98_UbuGFJ50=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>EARPODS</h3>
+          <h4>Up To 20% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3007/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="images/Earphones.jpeg" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>EARPHONES</h3>
+          <h4>Up To 45% Off</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3007/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/new-mail-online-message-email-communication-laptop-computer-desk-picture-id1094872032?k=20&m=1094872032&s=612x612&w=0&h=xok01lPJdLxIFW0Lfxz5iQc1DvXyZjf2I3E-STK2KUU=" class="card-img-top"
+          alt=""></img>
+        <div class="card-body">
+          <h3>LAPTOPS</h3>
+          <h4>10% Off On HDFC Credit Card</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3008/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/charge-battery-laptop-and-smartphone-on-fabric-background-picture-id680359450?b=1&k=20&m=680359450&s=170667a&w=0&h=bC4Zcya8HVoSn3ea3QBTpuVMOUUqjirCtrWqoIyz2kU=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>LAPTOP CHARGERS</h3>
+          <h4>UP TO 30% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3008/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/elegant-female-hands-on-the-keyboard-of-a-personal-computer-in-the-picture-id1157767430?k=20&m=1157767430&s=612x612&w=0&h=Ge8gFU7NJX8nkTOLeAy3LtvJ61wV6KnQjCUgB4R68MM=" class="card-img-top"
+          alt=""></img>
+        <div class="card-body">
+          <h3>KEYBOARDS</h3>
+          <h4>UP TO 30% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3008/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5">
+      <div class="card text-center">
+        <img src="https://media.istockphoto.com/photos/scrolling-and-clicking-through-a-world-of-opportunity-picture-id1077903942?b=1&k=20&m=1077903942&s=170667a&w=0&h=ARAFbxHxBdNSy9yfkheAtlgEtKEmztYiTifhiihapGA=" class="card-img-top" alt=""></img>
+        <div class="card-body">
+          <h3>MOUSES</h3>
+          <h4>UP TO 30% OFF</h4>
+          <h5>Hurry Up!!</h5>
+          <a href="http://localhost:3008/"><button type="submit" name="button">Explore</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h2 class="electronics">OUR TEAM</h2>
+
+<section id="about">
+
+  <div class="wrapper">
+    <div class="img-area">
+      <div class="inner-area">
+        <img src="images/sujay.png" alt=""></img>
+      </div>
+    </div>
+
+    <div class="name">SUJAY KUMMARI</div>
+    <div class="about">FULL STACK DEVELOPER</div>
+
+    <div class="social-icons">
+      <a href="/public/shirt.html" class="fb"><i class="fab fa-facebook-f"></i></a>
+      <a href="/public/shirt.html" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="/public/shirt.html" class="insta"><i class="fab fa-instagram"></i></a>
+      <a href="/public/shirt.html" class="yt"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="buttons">
+      <button>Message</button>
+      <button>Subscribe</button>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+    <div class="img-area">
+      <div class="inner-area">
+        <img src="images/raghu.png" alt=""></img>
+      </div>
+    </div>
+
+    <div class="name">RAGHU RAMIREDDY</div>
+    <div class="about">FULL STACK DEVELOPER</div>
+    <div class="social-icons">
+      <a href="/public/shirt.html" class="fb"><i class="fab fa-facebook-f"></i></a>
+      <a href="/public/shirt.html" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="/public/shirt.html" class="insta"><i class="fab fa-instagram"></i></a>
+      <a href="/public/shirt.html" class="yt"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="buttons">
+      <button>Message</button>
+      <button>Subscribe</button>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+    <div class="img-area">
+      <div class="inner-area">
+        <img src="images/dheeraj.png" alt=""></img>
+      </div>
+    </div>
+
+    <div class="name">LVR DHEERAJ</div>
+    <div class="about">FULL STACK DEVELOPER</div>
+    <div class="social-icons">
+      <a href="/public/shirt.html" class="fb"><i class="fab fa-facebook-f"></i></a>
+      <a href="/public/shirt.html" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="/public/shirt.html" class="insta"><i class="fab fa-instagram"></i></a>
+      <a href="/public/shirt.html" class="yt"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="buttons">
+      <button>Message</button>
+      <button>Subscribe</button>
+    </div>
+
+  </div>
+
+</section>
+
+
+<footer class="footer theme-bg-primary">
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-4">
+        <h4 class="col-heading">Highlihts</h4>
+        <ul>
+          <li><a>Our Story</a></li>
+          <li><a>Pricing</a></li>
+          <li><a>Contact</a></li>
+          <li><a>Jobs</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <h4 class="col-heading">Resources</h4>
+        <ul>
+          <li><a>Faqs</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <h4 class="col-heading">Legal</h4>
+        <ul>
+          <li><a>Privacy</a></li>
+          <li><a>Terms Of Services</a></li>
+          <li><a>Security</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+        <h4 class="col-heading">Stay Connected</h4>
+        <ul class="social-list">
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+        <div class="mb-2">
+          Company Name<br></br>
+          2419 Locust View Drive<br></br>
+          San Francisco, CA, 9898
+        </div>
+        <div class="text-white">
+          <a href="#">hello@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <hr>
+    </hr>
+  </div>
+  <div>
+    <div class="container text-center">
+      <h3 class="mb-3">Get The App</h3>
+      <div class="section-intro mb-4 mx-auto">
+        Download Our apps now.Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Maecenas scelerisque auctor commodo. Nunc nec felis lobortis.
+      </div>
+      <ul class="d-inline-block">
+        <li class="list-inline-item mr-3"><button class="btn"><i class="fa-brands fa-google-play app-icon"></i>Play Store</button></li>
+        <li class="list-inline-item mr-3"><button class="btn"><i class="fa-brands fa-apple app-icon"></i>App Store</button></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom text-center pb-5">
+    <small class="copyright">Designed With ❤️ By Our Team</small><br></br>
+    <small class="copyright"><i class="fa-solid fa-copyright"></i> copyright 2022</small>
+  </div>
+</footer>
+
+<script>
+  var topnav = document.getElementById('myTopnav');
+
+  topnav.onclick = function() {
+
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+
+  }
+
+  var cart = document.getElementById('cart');
+   function cartFunction(){
+    alert("Please Login/register to view Your Cart")
+  }
+
+</script>
+
+
+<%- include('partials/footer') %>

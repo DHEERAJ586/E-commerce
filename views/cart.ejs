@@ -1,0 +1,211 @@
+<%- include('partials/cartheader') %>
+
+
+<div class="topnav" id="myTopnav">
+<input type="search" placeholder="Search"></input><i class="fa fa-search search-icon"></i>
+<a href="http://localhost:3000/">HOME</a>
+<a href="http://localhost:3001/">Mens Fashion</a>
+<a href="http://localhost:3002/">Womens Fashion</a>
+<a href="http://localhost:3003/">Mens Footwear</a>
+<a href="http://localhost:3004/">Womens Footwear</a>
+<a href="http://localhost:3000/">Home & Living</a>
+<a href="http://localhost:3000/">Electronics</a>
+  <a href="javascript:void(0);" class="icon" onClick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+
+<!-- &&&&&&&&&&&&&&&&&&&&&&&&&     CART DETAILS  &&&&&&&&&&&&&&&&&&&&  -->
+
+<div class="container cart-page">
+  <table>
+    <tr>
+      <th>product</th>
+      <th>Quantity</th>
+      <th>Subtotal</th>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="https://images-eu.ssl-images-amazon.com/images/I/61JbYBhCbIL._AC_UL320_SR320,320_.jpg" id="remove-img" alt="">
+          <div>
+            <p id="remove-name">US Polo Assin Men's Shirt</p>
+            <small id="remove-price">Price: $50.00</small>
+            <br>
+            <a href="#" id="remove-text" onclick="removeFunction()">Remove</a>
+          </div>
+        </div>
+      </td>
+      <td id="remove-quantity"><input type="number" value="1"></td>
+      <td id="remove-quantity-price">$50.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="https://m.media-amazon.com/images/I/51r4NoA8B+L._AC_UL640_FMwebp_QL65_.jpg" alt="">
+          <div>
+            <p>Prestige Svachh Deluxe Alpha 10 Litre Stainless Steel Pressure Cooker</p>
+            <small>Price: $70.00</small>
+            <br>
+            <a href="#">Remove</a>
+          </div>
+        </div>
+      </td>
+      <td><input type="number" name="" value="1"></td>
+      <td>$70.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="https://m.media-amazon.com/images/I/71KVeQql77S._AC_UL640_FMwebp_QL65_.jpg" alt="">
+          <div>
+            <p>OnePlus Nord 2 5G (Gray Sierra, 8GB RAM,128GB Storage)</p>
+            <small>Price: $40.00</small>
+            <br>
+            <a href="#">Remove</a>
+          </div>
+        </div>
+      </td>
+      <td><input type="number" name="" value="1"></td>
+      <td>$40.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="https://m.media-amazon.com/images/I/41FRcnkWyoL._AC_UL640_FMwebp_QL65_.jpg" alt="">
+          <div>
+            <p>Men's Flip-Flops and House Slippers</p>
+            <small>Price: $55.00</small>
+            <br>
+            <a href="#">Remove</a>
+          </div>
+        </div>
+      </td>
+      <td><input type="number" name="" value="1"></td>
+      <td>$55.00</td>
+    </tr>
+  </table>
+
+  <div class="total-price">
+
+    <table>
+      <tr>
+        <td>Subtotal</td>
+        <td>$200.00</td>
+      </tr>
+      <tr>
+        <td>Tax</td>
+        <td>$20.00</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>$220.00</td>
+      </tr>
+    </table>
+  </div>
+  <button class="proceed-btn" type="submit" name="button">Proceed to check out -></button>
+</div>
+
+
+
+
+<footer class="footer theme-bg-primary">
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-4">
+        <h4 class="col-heading">Highlihts</h4>
+        <ul>
+          <li><a>Our Story</a></li>
+          <li><a>Pricing</a></li>
+          <li><a>Contact</a></li>
+          <li><a>Jobs</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <h4 class="col-heading">Resources</h4>
+        <ul>
+          <li><a>Faqs</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <h4 class="col-heading">Legal</h4>
+        <ul>
+          <li><a>Privacy</a></li>
+          <li><a>Terms Of Services</a></li>
+          <li><a>Security</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+        <h4 class="col-heading">Stay Connected</h4>
+        <ul class="social-list">
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+        <div class="mb-2">
+          Company Name<br></br>
+          2419 Locust View Drive<br></br>
+          San Francisco, CA, 9898
+        </div>
+        <div class="text-white">
+          <a href="#">hello@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <hr>
+    </hr>
+  </div>
+  <div>
+    <div class="container text-center">
+      <h3 class="mb-3">Get The App</h3>
+      <div class="section-intro mb-4 mx-auto">
+        Download Our apps now.Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Maecenas scelerisque auctor commodo. Nunc nec felis lobortis.
+      </div>
+      <ul class="d-inline-block">
+        <li class="list-inline-item mr-3"><button class="btn"><i class="fa-brands fa-google-play app-icon"></i>Play Store</button></li>
+        <li class="list-inline-item mr-3"><button class="btn"><i class="fa-brands fa-apple app-icon"></i>App Store</button></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom text-center pb-5">
+    <small class="copyright">Designed With ❤️ By Our Team</small><br></br>
+    <small class="copyright"><i class="fa-solid fa-copyright"></i> copyright 2022</small>
+  </div>
+</footer>
+
+<script type="text/javascript">
+
+  var topnav = document.getElementById('myTopnav');
+
+  topnav.onclick = function() {
+
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+
+  }
+
+  var remove = document.getElementById('remove');
+
+  function removeFunction(){
+    document.getElementById("remove-img").style.display="none";
+    document.getElementById("remove-name").style.display="none";
+    document.getElementById("remove-price").style.display="none";
+    document.getElementById("remove-text").style.display="none";
+    document.getElementById("remove-quantity").style.display="none";
+    document.getElementById("remove-quantity-price").style.display="none";
+    alert("Item Removed Successfully");
+  }
+</script>
+
+<%- include('partials/cartfooter') %>
